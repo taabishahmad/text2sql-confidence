@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiment scratch (keep outputs/all_results.json, ignore the rest)
+outputs/summary.txt
+outputs/tables/
+build/
+*.log

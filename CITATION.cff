@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper below."
+title: "Certified Abstention for Text-to-SQL"
+authors:
+  - family-names: Ahmad
+    given-names: Tabish
+  - family-names: Alam
+    given-names: Imtiaz
+year: 2026
+license: MIT
+repository-code: "https://github.com/taabishahmad/text2sql-confidence"
+keywords:
+  - text-to-SQL
+  - conformal prediction
+  - risk control
+  - selective prediction
+  - uncertainty quantification
+preferred-citation:
+  type: article
+  title: "Certified abstention for text-to-SQL: a distribution-free risk-control comparison for trustworthy natural-language database interfaces"
+  authors:
+    - family-names: Ahmad
+      given-names: Tabish
+    - family-names: Alam
+      given-names: Imtiaz
+  year: 2026

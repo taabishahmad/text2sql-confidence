@@ -1,0 +1,1310 @@
+{
+  "config": {
+    "alphas": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4
+    ],
+    "delta": 0.1,
+    "n_trials": 300,
+    "grid_m": 100,
+    "n_min": 20,
+    "seed": 0
+  },
+  "datasets": {
+    "bird__gpt-4o-mini": {
+      "n": 367,
+      "base_accuracy": 0.4196185286103542,
+      "backends": {
+        "0.1": {
+          "Heuristic": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "CRC": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "RCPS": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.15": {
+          "Heuristic": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "CRC": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "RCPS": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.2": {
+          "Heuristic": {
+            "cert_rate": 0.01,
+            "coverage": 0.12681159420289856,
+            "risk": 0.5591114883984154,
+            "viol_rate": 1.0
+          },
+          "CRC": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "RCPS": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.25": {
+          "Heuristic": {
+            "cert_rate": 0.06666666666666667,
+            "coverage": 0.15271739130434783,
+            "risk": 0.4985569616515907,
+            "viol_rate": 1.0
+          },
+          "CRC": {
+            "cert_rate": 0.02,
+            "coverage": 0.15489130434782608,
+            "risk": 0.5388907582387157,
+            "viol_rate": 1.0
+          },
+          "RCPS": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.3": {
+          "Heuristic": {
+            "cert_rate": 0.18333333333333332,
+            "coverage": 0.17302371541501982,
+            "risk": 0.4804125863923856,
+            "viol_rate": 1.0
+          },
+          "CRC": {
+            "cert_rate": 0.09333333333333334,
+            "coverage": 0.17333074534161488,
+            "risk": 0.4954679962441036,
+            "viol_rate": 1.0
+          },
+          "RCPS": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.35": {
+          "Heuristic": {
+            "cert_rate": 0.5266666666666666,
+            "coverage": 0.21498348926802419,
+            "risk": 0.44012785787748326,
+            "viol_rate": 0.9746835443037974
+          },
+          "CRC": {
+            "cert_rate": 0.37,
+            "coverage": 0.21063454759106937,
+            "risk": 0.4558070305489759,
+            "viol_rate": 0.9819819819819819
+          },
+          "RCPS": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.4": {
+          "Heuristic": {
+            "cert_rate": 0.8133333333333334,
+            "coverage": 0.32911617961511047,
+            "risk": 0.4385837193728217,
+            "viol_rate": 0.6598360655737705
+          },
+          "CRC": {
+            "cert_rate": 0.7266666666666667,
+            "coverage": 0.3047467092142003,
+            "risk": 0.441413609634789,
+            "viol_rate": 0.6697247706422018
+          },
+          "RCPS": {
+            "cert_rate": 0.01,
+            "coverage": 0.17753623188405798,
+            "risk": 0.5386534518113465,
+            "viol_rate": 1.0
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        }
+      },
+      "score_certifiability": {
+        "Learned fusion": {
+          "cert_rate": 0.0,
+          "coverage": null
+        },
+        "Self-consistency": {
+          "cert_rate": 0.0,
+          "coverage": null
+        },
+        "Semantic entropy": {
+          "cert_rate": 0.0,
+          "coverage": null
+        },
+        "Token logprob": {
+          "cert_rate": 0.0,
+          "coverage": null
+        }
+      },
+      "calibration_size": {
+        "50": {
+          "cert_rate": 0.0,
+          "coverage": null
+        },
+        "100": {
+          "cert_rate": 0.0,
+          "coverage": null
+        },
+        "150": {
+          "cert_rate": 0.0,
+          "coverage": null
+        },
+        "200": {
+          "cert_rate": 0.0,
+          "coverage": null
+        },
+        "250": {
+          "cert_rate": 0.0,
+          "coverage": null
+        },
+        "300": {
+          "cert_rate": 0.0,
+          "coverage": null
+        }
+      },
+      "sensitivity": {
+        "delta": {
+          "0.01": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "0.05": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "0.1": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "0.2": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          }
+        },
+        "grid": {
+          "20": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "50": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "100": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "200": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "500": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          }
+        }
+      },
+      "error_analysis": {
+        "agreement_ratio": {
+          "correct": 0.9402597402597404,
+          "incorrect": 0.6948356807511737
+        },
+        "semantic_entropy": {
+          "correct": 0.07500823624195853,
+          "incorrect": 0.23746956974196792
+        },
+        "struct_agreement_ratio": {
+          "correct": 0.7493506493506493,
+          "incorrect": 0.5342723004694836
+        },
+        "n_joins": {
+          "correct": 0.7662337662337663,
+          "incorrect": 0.9248826291079812
+        },
+        "frac_columns_valid": {
+          "correct": 0.9967532467532467,
+          "incorrect": 0.9005365526492287
+        },
+        "chosen_perplexity": {
+          "correct": 1.033777287662749,
+          "incorrect": 1.044460784985211
+        }
+      },
+      "per_difficulty": {
+        "challenging": {
+          "n": 43,
+          "accuracy": 0.37209302325581395
+        },
+        "moderate": {
+          "n": 112,
+          "accuracy": 0.29464285714285715
+        },
+        "simple": {
+          "n": 212,
+          "accuracy": 0.49528301886792453
+        }
+      },
+      "economics": null
+    },
+    "bird__llama-3.1-8b-instant": {
+      "n": 82,
+      "base_accuracy": 0.21951219512195122,
+      "backends": {
+        "0.1": {
+          "Heuristic": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "CRC": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "RCPS": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.15": {
+          "Heuristic": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "CRC": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "RCPS": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.2": {
+          "Heuristic": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "CRC": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "RCPS": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.25": {
+          "Heuristic": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "CRC": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "RCPS": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.3": {
+          "Heuristic": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "CRC": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "RCPS": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.35": {
+          "Heuristic": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "CRC": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "RCPS": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.4": {
+          "Heuristic": {
+            "cert_rate": 0.0033333333333333335,
+            "coverage": 0.4634146341463415,
+            "risk": 0.8421052631578947,
+            "viol_rate": 1.0
+          },
+          "CRC": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "RCPS": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        }
+      },
+      "score_certifiability": {
+        "Learned fusion": {
+          "cert_rate": 0.0,
+          "coverage": null
+        },
+        "Self-consistency": {
+          "cert_rate": 0.0,
+          "coverage": null
+        },
+        "Semantic entropy": {
+          "cert_rate": 0.0,
+          "coverage": null
+        },
+        "Token logprob": {
+          "cert_rate": 0.0,
+          "coverage": null
+        }
+      },
+      "calibration_size": {
+        "50": {
+          "cert_rate": 0.0,
+          "coverage": null
+        }
+      },
+      "sensitivity": {
+        "delta": {
+          "0.01": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "0.05": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "0.1": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "0.2": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          }
+        },
+        "grid": {
+          "20": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "50": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "100": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "200": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "500": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          }
+        }
+      },
+      "error_analysis": {
+        "agreement_ratio": {
+          "correct": 0.5444444444444444,
+          "incorrect": 0.228125
+        },
+        "semantic_entropy": {
+          "correct": 0.32902852341461186,
+          "incorrect": 0.3031179439584385
+        },
+        "struct_agreement_ratio": {
+          "correct": 0.3111111111111111,
+          "incorrect": 0.196875
+        },
+        "n_joins": {
+          "correct": 0.8333333333333334,
+          "incorrect": 0.484375
+        },
+        "frac_columns_valid": {
+          "correct": 1.0,
+          "incorrect": 0.6233072916666667
+        },
+        "chosen_perplexity": {
+          "correct": NaN,
+          "incorrect": NaN
+        }
+      },
+      "per_difficulty": {
+        "challenging": {
+          "n": 3,
+          "accuracy": 0.0
+        },
+        "moderate": {
+          "n": 29,
+          "accuracy": 0.06896551724137931
+        },
+        "simple": {
+          "n": 50,
+          "accuracy": 0.32
+        }
+      },
+      "economics": null
+    },
+    "spider__gpt-4o-mini": {
+      "n": 600,
+      "base_accuracy": 0.6966666666666667,
+      "backends": {
+        "0.1": {
+          "Heuristic": {
+            "cert_rate": 0.8333333333333334,
+            "coverage": 0.25824,
+            "risk": 0.10801138597379108,
+            "viol_rate": 0.512
+          },
+          "CRC": {
+            "cert_rate": 0.6066666666666667,
+            "coverage": 0.24045787545787548,
+            "risk": 0.11249467638672792,
+            "viol_rate": 0.521978021978022
+          },
+          "RCPS": {
+            "cert_rate": 0.023333333333333334,
+            "coverage": 0.19428571428571426,
+            "risk": 0.137722361935437,
+            "viol_rate": 1.0
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.15": {
+          "Heuristic": {
+            "cert_rate": 0.9933333333333333,
+            "coverage": 0.5451006711409396,
+            "risk": 0.14722992823059644,
+            "viol_rate": 0.40939597315436244
+          },
+          "CRC": {
+            "cert_rate": 0.9933333333333333,
+            "coverage": 0.5159395973154363,
+            "risk": 0.14297881124530834,
+            "viol_rate": 0.3724832214765101
+          },
+          "RCPS": {
+            "cert_rate": 0.25333333333333335,
+            "coverage": 0.2629824561403509,
+            "risk": 0.13237883593085395,
+            "viol_rate": 0.23684210526315788
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.2": {
+          "Heuristic": {
+            "cert_rate": 1.0,
+            "coverage": 0.7576444444444445,
+            "risk": 0.199315211626835,
+            "viol_rate": 0.5233333333333333
+          },
+          "CRC": {
+            "cert_rate": 1.0,
+            "coverage": 0.7498444444444445,
+            "risk": 0.19665698836032647,
+            "viol_rate": 0.47333333333333333
+          },
+          "RCPS": {
+            "cert_rate": 0.9,
+            "coverage": 0.5008271604938271,
+            "risk": 0.14404857548795333,
+            "viol_rate": 0.06296296296296296
+          },
+          "LtT": {
+            "cert_rate": 0.08,
+            "coverage": 0.29097222222222224,
+            "risk": 0.15211023884294664,
+            "viol_rate": 0.041666666666666664
+          }
+        },
+        "0.25": {
+          "Heuristic": {
+            "cert_rate": 1.0,
+            "coverage": 0.8828222222222221,
+            "risk": 0.2493916135913391,
+            "viol_rate": 0.5166666666666667
+          },
+          "CRC": {
+            "cert_rate": 1.0,
+            "coverage": 0.8771777777777777,
+            "risk": 0.2468682712590851,
+            "viol_rate": 0.47333333333333333
+          },
+          "RCPS": {
+            "cert_rate": 0.9966666666666667,
+            "coverage": 0.7475139353400223,
+            "risk": 0.1966484965091821,
+            "viol_rate": 0.06354515050167224
+          },
+          "LtT": {
+            "cert_rate": 0.6566666666666666,
+            "coverage": 0.5514043993231811,
+            "risk": 0.1597812412340094,
+            "viol_rate": 0.005076142131979695
+          }
+        },
+        "0.3": {
+          "Heuristic": {
+            "cert_rate": 1.0,
+            "coverage": 0.9639555555555556,
+            "risk": 0.28688364610128364,
+            "viol_rate": 0.45
+          },
+          "CRC": {
+            "cert_rate": 1.0,
+            "coverage": 0.9636222222222224,
+            "risk": 0.28672866226117694,
+            "viol_rate": 0.45
+          },
+          "RCPS": {
+            "cert_rate": 1.0,
+            "coverage": 0.8766333333333334,
+            "risk": 0.2467831097814682,
+            "viol_rate": 0.07
+          },
+          "LtT": {
+            "cert_rate": 0.99,
+            "coverage": 0.7531986531986532,
+            "risk": 0.1989507890357928,
+            "viol_rate": 0.006734006734006734
+          }
+        },
+        "0.35": {
+          "Heuristic": {
+            "cert_rate": 1.0,
+            "coverage": 0.9997333333333334,
+            "risk": 0.30472173913043477,
+            "viol_rate": 0.0033333333333333335
+          },
+          "CRC": {
+            "cert_rate": 1.0,
+            "coverage": 0.9995333333333334,
+            "risk": 0.30464632541885084,
+            "viol_rate": 0.0033333333333333335
+          },
+          "RCPS": {
+            "cert_rate": 1.0,
+            "coverage": 0.9631666666666668,
+            "risk": 0.28655668392234795,
+            "viol_rate": 0.0033333333333333335
+          },
+          "LtT": {
+            "cert_rate": 1.0,
+            "coverage": 0.8831333333333333,
+            "risk": 0.24953665401195763,
+            "viol_rate": 0.0033333333333333335
+          }
+        },
+        "0.4": {
+          "Heuristic": {
+            "cert_rate": 1.0,
+            "coverage": 1.0,
+            "risk": 0.3048444444444444,
+            "viol_rate": 0.0
+          },
+          "CRC": {
+            "cert_rate": 1.0,
+            "coverage": 1.0,
+            "risk": 0.3048444444444444,
+            "viol_rate": 0.0
+          },
+          "RCPS": {
+            "cert_rate": 1.0,
+            "coverage": 0.9995333333333334,
+            "risk": 0.30464632541885084,
+            "viol_rate": 0.0
+          },
+          "LtT": {
+            "cert_rate": 1.0,
+            "coverage": 0.9717555555555555,
+            "risk": 0.29080324796258006,
+            "viol_rate": 0.0
+          }
+        }
+      },
+      "score_certifiability": {
+        "Learned fusion": {
+          "cert_rate": 0.6566666666666666,
+          "coverage": 0.5514043993231811
+        },
+        "Self-consistency": {
+          "cert_rate": 0.0,
+          "coverage": null
+        },
+        "Semantic entropy": {
+          "cert_rate": 0.0,
+          "coverage": null
+        },
+        "Token logprob": {
+          "cert_rate": 0.6366666666666667,
+          "coverage": 0.415305410122164
+        }
+      },
+      "calibration_size": {
+        "50": {
+          "cert_rate": 0.006666666666666667,
+          "coverage": 0.5763636363636364
+        },
+        "100": {
+          "cert_rate": 0.09,
+          "coverage": 0.49059259259259264
+        },
+        "150": {
+          "cert_rate": 0.15333333333333332,
+          "coverage": 0.5335265700483092
+        },
+        "200": {
+          "cert_rate": 0.2866666666666667,
+          "coverage": 0.5684593023255815
+        },
+        "250": {
+          "cert_rate": 0.43,
+          "coverage": 0.537452934662237
+        },
+        "300": {
+          "cert_rate": 0.62,
+          "coverage": 0.5522222222222222
+        }
+      },
+      "sensitivity": {
+        "delta": {
+          "0.01": {
+            "cert_rate": 0.3,
+            "coverage": 0.4921666666666667,
+            "viol_rate": 0.0
+          },
+          "0.05": {
+            "cert_rate": 0.52,
+            "coverage": 0.5341025641025641,
+            "viol_rate": 0.0
+          },
+          "0.1": {
+            "cert_rate": 0.625,
+            "coverage": 0.5815200000000001,
+            "viol_rate": 0.016
+          },
+          "0.2": {
+            "cert_rate": 0.7,
+            "coverage": 0.6045476190476192,
+            "viol_rate": 0.0
+          }
+        },
+        "grid": {
+          "20": {
+            "cert_rate": 0.89,
+            "coverage": 0.5972846441947566,
+            "viol_rate": 0.011235955056179775
+          },
+          "50": {
+            "cert_rate": 0.765,
+            "coverage": 0.582723311546841,
+            "viol_rate": 0.0
+          },
+          "100": {
+            "cert_rate": 0.635,
+            "coverage": 0.5571128608923885,
+            "viol_rate": 0.007874015748031496
+          },
+          "200": {
+            "cert_rate": 0.505,
+            "coverage": 0.5584158415841584,
+            "viol_rate": 0.0
+          },
+          "500": {
+            "cert_rate": 0.3,
+            "coverage": 0.4981111111111111,
+            "viol_rate": 0.0
+          }
+        }
+      },
+      "error_analysis": {
+        "agreement_ratio": {
+          "correct": 0.9851674641148325,
+          "incorrect": 0.8978021978021978
+        },
+        "semantic_entropy": {
+          "correct": 0.022011624849521762,
+          "incorrect": 0.12541506712309894
+        },
+        "struct_agreement_ratio": {
+          "correct": 0.8779904306220095,
+          "incorrect": 0.7483516483516482
+        },
+        "n_joins": {
+          "correct": 0.2942583732057416,
+          "incorrect": 0.6703296703296703
+        },
+        "frac_columns_valid": {
+          "correct": 0.9958931419457735,
+          "incorrect": 0.9765829408686552
+        },
+        "chosen_perplexity": {
+          "correct": 1.0232549315541062,
+          "incorrect": 1.038661214081542
+        }
+      },
+      "per_difficulty": {
+        "unknown": {
+          "n": 600,
+          "accuracy": 0.6966666666666667
+        }
+      },
+      "economics": {
+        "coverage": 0.79,
+        "risk": 0.2088607594936709,
+        "100/5": {
+          "no_abstention": 30333.333333333336,
+          "certified": 17550.0,
+          "saving_pct": 42.142857142857146
+        },
+        "500/5": {
+          "no_abstention": 151666.6666666667,
+          "certified": 83550.0,
+          "saving_pct": 44.91208791208792
+        },
+        "1000/10": {
+          "no_abstention": 303333.3333333334,
+          "certified": 167100.0,
+          "saving_pct": 44.91208791208792
+        }
+      }
+    },
+    "spider__llama-3.3-70b-versatile": {
+      "n": 80,
+      "base_accuracy": 0.8,
+      "backends": {
+        "0.1": {
+          "Heuristic": {
+            "cert_rate": 0.23666666666666666,
+            "coverage": 0.6052816901408451,
+            "risk": 0.25742557815459455,
+            "viol_rate": 1.0
+          },
+          "CRC": {
+            "cert_rate": 0.06,
+            "coverage": 0.5319444444444446,
+            "risk": 0.2867463195240973,
+            "viol_rate": 1.0
+          },
+          "RCPS": {
+            "cert_rate": 0.0033333333333333335,
+            "coverage": 0.575,
+            "risk": 0.34782608695652173,
+            "viol_rate": 1.0
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.15": {
+          "Heuristic": {
+            "cert_rate": 0.51,
+            "coverage": 0.7084967320261437,
+            "risk": 0.23451419531070947,
+            "viol_rate": 1.0
+          },
+          "CRC": {
+            "cert_rate": 0.26666666666666666,
+            "coverage": 0.71375,
+            "risk": 0.25707326717075324,
+            "viol_rate": 0.9875
+          },
+          "RCPS": {
+            "cert_rate": 0.006666666666666667,
+            "coverage": 0.55,
+            "risk": 0.34057971014492755,
+            "viol_rate": 1.0
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.2": {
+          "Heuristic": {
+            "cert_rate": 0.8566666666666667,
+            "coverage": 0.9136186770428016,
+            "risk": 0.21536551056082276,
+            "viol_rate": 0.5408560311284046
+          },
+          "CRC": {
+            "cert_rate": 0.6933333333333334,
+            "coverage": 0.8450721153846155,
+            "risk": 0.22623789060107077,
+            "viol_rate": 0.7596153846153846
+          },
+          "RCPS": {
+            "cert_rate": 0.016666666666666666,
+            "coverage": 0.605,
+            "risk": 0.298231884057971,
+            "viol_rate": 1.0
+          },
+          "LtT": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "risk": null,
+            "viol_rate": null
+          }
+        },
+        "0.25": {
+          "Heuristic": {
+            "cert_rate": 0.98,
+            "coverage": 0.9798469387755102,
+            "risk": 0.20429452519221872,
+            "viol_rate": 0.0782312925170068
+          },
+          "CRC": {
+            "cert_rate": 0.9066666666666666,
+            "coverage": 0.9651654411764705,
+            "risk": 0.21038438505138557,
+            "viol_rate": 0.08455882352941177
+          },
+          "RCPS": {
+            "cert_rate": 0.1,
+            "coverage": 0.6591666666666666,
+            "risk": 0.29236613198932043,
+            "viol_rate": 1.0
+          },
+          "LtT": {
+            "cert_rate": 0.0033333333333333335,
+            "coverage": 0.575,
+            "risk": 0.34782608695652173,
+            "viol_rate": 1.0
+          }
+        },
+        "0.3": {
+          "Heuristic": {
+            "cert_rate": 0.9966666666666667,
+            "coverage": 0.9945652173913043,
+            "risk": 0.20266308781752415,
+            "viol_rate": 0.013377926421404682
+          },
+          "CRC": {
+            "cert_rate": 0.9866666666666667,
+            "coverage": 0.9940033783783785,
+            "risk": 0.20356494194729488,
+            "viol_rate": 0.013513513513513514
+          },
+          "RCPS": {
+            "cert_rate": 0.33,
+            "coverage": 0.8628787878787878,
+            "risk": 0.251830343047456,
+            "viol_rate": 0.04040404040404041
+          },
+          "LtT": {
+            "cert_rate": 0.006666666666666667,
+            "coverage": 0.55,
+            "risk": 0.34057971014492755,
+            "viol_rate": 1.0
+          }
+        },
+        "0.35": {
+          "Heuristic": {
+            "cert_rate": 1.0,
+            "coverage": 1.0,
+            "risk": 0.20216666666666663,
+            "viol_rate": 0.0
+          },
+          "CRC": {
+            "cert_rate": 1.0,
+            "coverage": 1.0,
+            "risk": 0.20216666666666663,
+            "viol_rate": 0.0
+          },
+          "RCPS": {
+            "cert_rate": 0.7166666666666667,
+            "coverage": 0.9652325581395348,
+            "risk": 0.2256904372169792,
+            "viol_rate": 0.0
+          },
+          "LtT": {
+            "cert_rate": 0.02,
+            "coverage": 0.8708333333333335,
+            "risk": 0.3150793650793651,
+            "viol_rate": 0.16666666666666666
+          }
+        },
+        "0.4": {
+          "Heuristic": {
+            "cert_rate": 1.0,
+            "coverage": 1.0,
+            "risk": 0.20216666666666663,
+            "viol_rate": 0.0
+          },
+          "CRC": {
+            "cert_rate": 1.0,
+            "coverage": 1.0,
+            "risk": 0.20216666666666663,
+            "viol_rate": 0.0
+          },
+          "RCPS": {
+            "cert_rate": 0.9433333333333334,
+            "coverage": 0.9913427561837457,
+            "risk": 0.20802836815972472,
+            "viol_rate": 0.0
+          },
+          "LtT": {
+            "cert_rate": 0.11333333333333333,
+            "coverage": 0.8882352941176471,
+            "risk": 0.284551042639278,
+            "viol_rate": 0.0
+          }
+        }
+      },
+      "score_certifiability": {
+        "Learned fusion": {
+          "cert_rate": 0.0033333333333333335,
+          "coverage": 0.575
+        },
+        "Self-consistency": {
+          "cert_rate": 0.0033333333333333335,
+          "coverage": 0.925
+        },
+        "Semantic entropy": {
+          "cert_rate": 0.0033333333333333335,
+          "coverage": 0.925
+        },
+        "Token logprob": {
+          "cert_rate": 0.0,
+          "coverage": null
+        }
+      },
+      "calibration_size": {
+        "50": {
+          "cert_rate": 0.0033333333333333335,
+          "coverage": 0.5666666666666667
+        }
+      },
+      "sensitivity": {
+        "delta": {
+          "0.01": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "0.05": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "0.1": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "0.2": {
+            "cert_rate": 0.005,
+            "coverage": 0.65,
+            "viol_rate": 1.0
+          }
+        },
+        "grid": {
+          "20": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "50": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "100": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "200": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          },
+          "500": {
+            "cert_rate": 0.0,
+            "coverage": null,
+            "viol_rate": null
+          }
+        }
+      },
+      "error_analysis": {
+        "agreement_ratio": {
+          "correct": 1.0,
+          "incorrect": 0.875
+        },
+        "semantic_entropy": {
+          "correct": 0.0,
+          "incorrect": 0.2386928131105548
+        },
+        "struct_agreement_ratio": {
+          "correct": 0.8229166666666666,
+          "incorrect": 0.7916666666666666
+        },
+        "n_joins": {
+          "correct": 0.515625,
+          "incorrect": 0.8125
+        },
+        "frac_columns_valid": {
+          "correct": 1.0,
+          "incorrect": 1.0
+        },
+        "chosen_perplexity": {
+          "correct": NaN,
+          "incorrect": NaN
+        }
+      },
+      "per_difficulty": {
+        "unknown": {
+          "n": 80,
+          "accuracy": 0.8
+        }
+      },
+      "economics": null
+    }
+  },
+  "distribution_shift": {
+    "source": "spider__gpt-4o-mini",
+    "target": "bird__gpt-4o-mini",
+    "result": {
+      "RCPS": {
+        "in_dist": {
+          "cert_rate": 1.0,
+          "coverage": 0.8159166666666667,
+          "viol_rate": 0.05
+        },
+        "shifted": {
+          "cert_rate": 1.0,
+          "coverage": 0.5463387978142076,
+          "risk": 0.4464509954737935,
+          "viol_rate": 1.0
+        }
+      },
+      "LtT": {
+        "in_dist": {
+          "cert_rate": 1.0,
+          "coverage": 0.8021333333333333,
+          "viol_rate": 0.0
+        },
+        "shifted": {
+          "cert_rate": 1.0,
+          "coverage": 0.535655737704918,
+          "risk": 0.44296667350006674,
+          "viol_rate": 1.0
+        }
+      }
+    }
+  }
+}
